@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "macondo";
+    color: rgb(252, 252, 252);
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(./img/fundo4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+header {
+    height: 76px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid rgba(145, 145, 145, 0.715);
+}
+
+header ul {
+    display: flex;
+    ;
+}
+
+header ul li {
+    padding: 5px;
+
+
+}
+
+header ul li a:hover {
+    color: rgb(0, 153, 219);
+}
+
+header ul li a {
+    transition: 800ms;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .name h1 {
+    padding-top: 35px;
+    font-family: "Lucida Console";
+    font-size: 40px;
+    padding-top: px;
+    color: rgb(255, 255, 255);
+}
+
+.container .name h5 {
+    font-size: 20px;
+    padding-top: 1px;
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#about .name h3 {
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 32px;
+    color: rgb(255, 255, 255);
+}
+
+#about p {
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    padding: 50px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
+.form input {
+    width: 250px;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.form button {
+    width: 90px;
+    padding: 5px 10px;
+    background: linear-gradient(to right, #000000 50%, #ffffff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 600ms ease-out;
+    margin-top: 5px;
+
+
+}
+
+.form button:hover {
+    background-position: left bottom;
+    color: aliceblue;
+}
+
+.form p {
+    font-size: 18px;
+    padding-bottom: 4px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 4px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+
+
+}
+
+.logo {
+    width: 130px;
+}
+
+.skills h3 {
+    font-size: 25px;
+    padding-top: 80px;
+    padding-bottom: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.skills ul {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#animation {
+    transition: 300ms;
+}
+
+#arrow {
+
+    font-size: 20px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start)infinite;
+
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+.active {
+    display: block !important;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+footer {
+    display: flex;
+    border-top: 1px solid rgba(145, 145, 145, 0.715);
+}
+
+footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+
+
+}
